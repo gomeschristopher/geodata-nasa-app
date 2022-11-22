@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.article {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.article-info {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.card-image-container {
+    position: relative;
+}
+
+.card-image-title-flag {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: #f44336;
+    opacity: 90%;
+    border-radius: 15px;
+}
+
+.card-image-title-flag-text {
+    color: white;
+    margin: 10px;
+}
+
+.nasa-logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nasa-info-icon {
+    color: blue;
+}
+
+.nasa-info-value {
+    text-align: right;
+    font-weight: bolder;
+}
